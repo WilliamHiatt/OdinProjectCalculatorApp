@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+#calculator {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 500px;
+    height: 750px;
+}
+
+.display {
+    background-color: white;
+    min-width: 200px;
+    min-height: 150px;
+    margin: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+button {
+    height: 110px;
+    width: 110px;
+}
